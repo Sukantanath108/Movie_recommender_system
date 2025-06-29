@@ -44,7 +44,7 @@
 <h2>🧪 How to Run Locally</h2>
 <ol>
   <li>Clone the repo:
-    <pre><code>git clone https://github.com/your-username/movie-recommender-system.git
+    <pre><code>git clone https://github.com/Sukantanath108/movie-recommender-system.git
 cd movie-recommender-system</code></pre>
   </li>
   <li>Install dependencies:
