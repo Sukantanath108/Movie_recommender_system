@@ -40,19 +40,6 @@
   <li>Jupyter Notebooks for experimentation</li>
 </ul>
 
-<h2>🗂️ Project Structure</h2>
-<pre>
-├── data/                  # Datasets (movies metadata, credits, etc.)
-├── notebooks/             # Jupyter notebooks for EDA and testing
-├── recommender/           # Core recommendation engine
-│   ├── content_based.py
-│   └── collaborative.py
-├── app/                   # Streamlit frontend
-│   └── app.py
-├── utils/                 # Helper scripts and TMDB API calls
-├── requirements.txt       # Python dependencies
-└── README.md              # Project documentation
-</pre>
 
 <h2>🧪 How to Run Locally</h2>
 <ol>
@@ -61,7 +48,8 @@
 cd movie-recommender-system</code></pre>
   </li>
   <li>Install dependencies:
-    <pre><code>pip install -r requirements.txt</code></pre>
+    <pre><code>pip install numpy pandas matplotlib scipy seaborn scikit-learn
+    </code></pre>
   </li>
   <li>Run the app:
     <pre><code>streamlit run app/app.py</code></pre>
@@ -86,6 +74,5 @@ cd movie-recommender-system</code></pre>
 <h2>🤝 Contributing</h2>
 <p>Pull requests and feature suggestions are welcome. For major changes, please open an issue first.</p>
 
-<h2>📄 License</h2>
-<p>This project is licensed under the <a href="./LICENSE">MIT License</a>.</p>
+
 
